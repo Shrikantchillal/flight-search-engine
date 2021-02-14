@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.MuiContainer-root.main-container {
+  border-right: 2px solid #5a5a5a;
+  border-left: 2px solid #5a5a5a;
+  padding-left: 0;
+  padding-right: 0;
+}
+.main-content {
+  display: flex;
+  border-bottom: 2px solid #5a5a5a;
+  margin-bottom: 20px;
+}
+.left-sidebar {
+  width: 25%;
+  padding: 5px 5px 20px;
+  box-sizing: border-box;
+  border-right: 2px solid #5a5a5a;
+  min-height: 410px;
+}
+.right-mainContent {
+  width: 75%;
+}
+.text-field {
+  width: calc(100% - 8px);
+  margin-bottom: 10px !important;
+}
+.form-fields .MuiFormControl-root.date-field {
+  padding-top: 4px;
+}
+.date-field label {
+  padding: 5px;
+}
+.search-title {
+  font-size: 24px;
+  padding: 20px;
+  border-bottom: 2px solid #5a5a5a;
+  text-transform: capitalize;
+}
+.flight-detail-container {
+  padding: 8px;
+}
+.flight-detail-container > div:last-child {
+  margin-bottom: 0;
+}
+.flight-details {
+  border: 2px solid #5a5a5a;
+  padding: 4px;
+  margin-bottom: 8px;
+}
+.flight-details > div {
+  padding-bottom: 3px;
+}
+.flight-details .fare {
+  font-size: 30px;
+}
+.flight-details .flight-id {
+  font-size: 11px;
+}
+.flight-details .from-to, .flight-details .flight-timing {
+  font-size: 15px;
+}
+.flight-details .flight-timing span {
+    width: 46px;
+    display: inline-block;
+}
+.grey-btn {
+  border: 2px solid #5a5a5a;
+  background: #ccc;
+  font-size: 12px;
+  text-align: center;
+  padding: 3px;
+  cursor: pointer;
+}
+.search-msg {
+  padding: 20px 0 0 20px;
+}
+.refine-flight-search .PrivateValueLabel-circle-4 {
+  width: auto;
+  padding: 0 4px;
+}
+.refine-flight-search .title {
+  padding-bottom: 40px;
+}
+.refine-flight-search .PrivateValueLabel-circle-4, .refine-flight-search .PrivateValueLabel-label-5 {
+  transform: none;
+  border-radius: 0;
+}
+.refine-flight-search {
+  border: 2px solid #5a5a5a;
+  padding: 8px;
+}
+.refine-flight-search .MuiSlider-root {
+  color: #5a5a5a;
+}
+.form-fields {
+  padding: 8px;
+  border: 2px solid #5a5a5a;
+  margin-bottom: 8px;
+}
+.form-title {
+  font-size: 14px;
+  padding: 6px;
+  border-top: 2px solid #5a5a5a;
+  border-right: 2px solid #5a5a5a;
+  border-left: 2px solid #5a5a5a;
+  display: inline-block;
+  border-radius: 10px 9px 0 0;
+}
+.form-fields .MuiFormControl-root {
+  border: 1px solid #5a5a5a;
+  padding: 0 4px;
+}
+.form-fields .MuiFormControl-root .MuiInputBase-input { 
+  font-size: 13px;
+}
+.MuiInput-underline:after {
+  display: none;
+}
+.MuiInput-underline:hover:before {
+  border: none !important;
+}
